@@ -49,4 +49,4 @@ runonce: true
 dockerimage: demisto/nltk:2.0.0.1671
 fromversion: 5.0.0
 tests:
-- WordTokenizeTest
+- No test
