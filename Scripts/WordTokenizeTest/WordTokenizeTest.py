@@ -6,6 +6,7 @@ from html.parser import HTMLParser
 from html import unescape
 html_parser = HTMLParser()
 
+
 CLEAN_HTML = (demisto.args().get('cleanHtml', 'yes') == 'yes')
 REMOVE_LINE_BREAKS = (demisto.args().get('removeLineBreaks', 'yes') == 'yes')
 TOKENIZE_TYPE = demisto.args().get('type', 'word')
